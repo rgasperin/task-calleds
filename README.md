@@ -23,9 +23,9 @@ Execute o comando php artisan key:generate para gerar uma nova chave de aplicati
 
 `php artisan key:generate`
 
-### Passo 4: Executando as migrates
+### Passo 4: Executando o Banco de Dados
 
-Use o comando php artisan migrate para gerar as tabelas no seu banco de dados.
+Na pasta "Documentação" você encontra o arquivo `plss-challenge_db.sql` importe ele para o seu banco de dados (MySQL, HeidiSQL, entre outros).
 
 `php artisan migrate`
 
