@@ -1,0 +1,72 @@
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css");
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    height: 100vh;
+}
+
+.btn-view {
+    height: 35px;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+}
+
+.margin-show {
+    margin-bottom: 5px !important;
+}
+
+.textarea-show {
+    height: 150px !important;
+    resize: none;
+}
+
+.active > .page-link,
+.page-link.active {
+    background-color: #585858;
+    border-color: #585858;
+}
+
+.page-link {
+    color: black;
+}
+
+.text-view {
+    font-size: 25px;
+}
+
+.img-fluid-nav {
+    max-width: 65%;
+    height: auto;
+}
+
+.card-view {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #585858;
+    border-radius: 15px;
+    padding: 15px;
+    min-height: 150px;
+    /* max-width: 280px; */
+}
+
+.btn-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
