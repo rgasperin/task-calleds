@@ -5,13 +5,16 @@
 Acesse o diretório do projeto usando o terminal e execute o comando: composer install, para instalar todas as dependências do PHP do projeto.
 
 `cd seu-projeto-laravel` <br/>
-`composer instal`
+`composer install`
 
 Caso não tenha o composer instaldo, instale acessando o link abaixo: <br/>
 https://getcomposer.org/
 
 **OBS:** Caso não tenha na sua maquina um ambiante de desenvolvimento, instale o laragon utilizando o link abaixo: <br/>
 https://laragon.org/download/index.html
+
+**OBS:** Instale as dependências usando `npm install` para isto você precisa instalar o node em seu computador, utilizando o link abaixo: <br/>
+https://nodejs.org/en/download/current
 
 ### Passo 2: Instalando dependências
 
@@ -25,9 +28,9 @@ Execute o comando php artisan key:generate para gerar uma nova chave de aplicati
 
 ### Passo 4: Executando o Banco de Dados
 
-Na pasta "Documentação" você encontra o arquivo `plss-challenge_db.sql` importe ele para o seu banco de dados (MySQL, HeidiSQL, entre outros).
+Na pasta "Documentação" você encontra o arquivo `plss-challenge_db.mwb` importe ele para o seu banco de dados (MySQL, HeidiSQL, entre outros).
 
-`php artisan migrate`
+**OBS:** Na tabela `situation` crie esses 3 dados nessa ordem: "Novo", "Pendente", "Resolvido", para o seu codigo NÃO ter erros (estes dados estaram por padrão no seu sistema o usuario não tera acesso).
 
 ### Passo 5: Iniciando o servidor
 
