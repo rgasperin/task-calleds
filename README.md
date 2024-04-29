@@ -30,7 +30,7 @@ Execute o comando php artisan key:generate para gerar uma nova chave de aplicati
 
 Na pasta "Documentação" você encontra o arquivo `plss-challenge_db.mwb` importe ele para o seu banco de dados (MySQL, HeidiSQL, entre outros).
 
-**OBS:** Na tabela `situation` crie esses 3 dados nessa ordem: "Novo", "Pendente", "Resolvido", para o seu codigo NÃO ter erros (estes dados estaram por padrão no seu sistema o usuario não tera acesso).
+**OBS:** Na tabela `situation` crie esses 3 dados nessa ordem: "Novo", "Pendente", "Resolvido", para o seu codigo NÃO ter erros (estes dados estaram por padrão no seu sistema, o usuario não tera acesso).
 
 ### Passo 5: Iniciando o servidor
 
